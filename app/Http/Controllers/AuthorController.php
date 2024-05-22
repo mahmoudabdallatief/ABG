@@ -11,6 +11,10 @@ use App\Models\Friend;
 use App\Notifications\FriendRequestNotification;
 class AuthorController extends Controller
 {
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
     public function profile(){
        
             $userId =Auth::user()->id;

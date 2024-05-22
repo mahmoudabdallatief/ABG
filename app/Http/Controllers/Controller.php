@@ -1,7 +1,7 @@
 <?php
 
 namespace App\Http\Controllers;
-require_once 'swagger_annotations.php';
+//require_once 'swagger_annotations.php';
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use Illuminate\Foundation\Bus\DispatchesJobs;
 use Illuminate\Foundation\Validation\ValidatesRequests;
